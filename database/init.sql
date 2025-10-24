@@ -177,3 +177,4 @@ INSERT INTO Trips (id, company_id, departure_city, destination_city, departure_t
 ('trip-tomorrow-2', 'company-002', 'Ankara', 'Konya', datetime('now', '+1 day', '+3 hours'), datetime('now', '+1 day', '+7 hours'), 180, 44);
 
 UPDATE Trips SET capacity = 44;
+
